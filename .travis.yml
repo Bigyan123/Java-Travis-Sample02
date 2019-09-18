@@ -12,7 +12,7 @@ jdk:
  - oraclejdk9
  
 script: mvn clean verify
-sudo: disable
+sudo: required
 
 # Each job in Travis CI has several steps:
 # https://docs.travis-ci.com/user/job-lifecycle/
